@@ -228,6 +228,8 @@ letter-spacing: 0.02em;
 
 .team {
     background: var(--CLOUD, #F4F4FD);
+    padding: 120px 0;
+    
 }
 .team-title {
     color: #2e2f42;
@@ -236,7 +238,7 @@ letter-spacing: 0.02em;
      text-align: center;
      letter-spacing: 0.02em;
      text-transform: capitalize;
-     padding: 120px 0;
+    margin-bottom: 72px;
      
 }
 .team-list {
@@ -255,7 +257,9 @@ letter-spacing: 0.02em;
 }
 .team-img {
     margin-bottom: 32px;
-    
+    display: block;
+     max-width: 100%;
+      height: auto;
 }
 .team-heading {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -309,6 +313,9 @@ padding-bottom: 32px;
 
 .portfolio-img {
     margin-bottom: 32px;
+    display: block;
+        max-width: 100%;
+        height: auto;
 }
 
 .portfolio-heading {
