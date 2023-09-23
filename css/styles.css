@@ -78,7 +78,7 @@ img {
 .header-list {
     display: flex;
     gap: 40px;
-    
+    padding: 24px 0;
 }
 
 .header-item {
@@ -130,7 +130,7 @@ padding: 0 15px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding: 24px 0;
+        
         
 }
 
@@ -339,7 +339,7 @@ padding-bottom: 32px;
 /* footer */
 
 .footer {
-
+padding: 100px 0;
 }
 
 .footer-container {
@@ -354,7 +354,6 @@ padding-bottom: 32px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: inline-block;
-    padding: 100px 0;
     margin-bottom: 16px;
     
     
@@ -366,7 +365,7 @@ padding-bottom: 32px;
         line-height: 1.5;
         letter-spacing: 0.02em;
 max-width: 264px;
-padding: 100px 0;
+
 
 }
 
