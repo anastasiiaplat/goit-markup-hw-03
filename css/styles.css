@@ -329,7 +329,7 @@ text-align: center;
 
         background: var(--WHITE, #FFF);
         width: 360px;
-        width: calc((100%-24*2)/3);
+        width: calc((100% - 48px) / 3);
             
 }
 
