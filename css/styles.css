@@ -211,14 +211,11 @@ height: 56px;
 
 .plan-list {
     display: flex;
-    justify-content: center;
-    gap: 24px;
-    
+    gap: 24px; 
 }
 
 .plan-item {
-    width: calc((100%-24*3)/4);
-    
+    width: calc((100% - 72px) / 4);
 }
 .plan-title {
     color: var(--NAVY-BLUE, #2E2F42);
