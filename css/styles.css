@@ -107,7 +107,7 @@ img {
 
 .header-container {
     display: flex;
-    
+    align-items: center;
 padding: 0 15px;
 
 }
@@ -213,9 +213,12 @@ height: 56px;
     display: flex;
     justify-content: center;
     gap: 24px;
+    
 }
+
 .plan-item {
     width: calc((100%-24*3)/4);
+    
 }
 .plan-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -230,7 +233,6 @@ margin-bottom: 8px;
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
-
 
 }
 
@@ -334,7 +336,6 @@ text-align: center;
 }
 
 .portfolio-img {
-    margin-bottom: 32px;
     display: block;
         max-width: 100%;
         height: auto;
@@ -376,6 +377,13 @@ background-color: var(--NAVY-BLUE, #2E2F42);
 }
     
 .name-footer {
+    color: var(--IRIS, #4D5AE5);
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 display: inline-block;
 margin-bottom: 16px;
 }
